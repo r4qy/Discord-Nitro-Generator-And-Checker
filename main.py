@@ -63,9 +63,9 @@ class NitroGen:  # Initialise the class
         if os.name == "nt":  # If the system is windows
             print("")
             ctypes.windll.kernel32.SetConsoleTitleW(
-                "Nitro Generator and Checker - Made by Drillenissen#4268")  # Change the
+                "Nitro Generator and Checker - Made by rev#1234")  # Change the
         else:  # Or if it is unix
-            print(f'\33]0;Nitro Generator and Checker - Made by Drillenissen#4268\a',
+            print(f'\33]0;Nitro Generator and Checker - Made by rev#1234\a',
                   end='', flush=True)  # Update title of command prompt
 
         print("""                                                
